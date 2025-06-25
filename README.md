@@ -1,4 +1,4 @@
-# 🍽️ Meal App
+# 🍽️ Recipe App
 
 ([video demo](video/demo_meal_app.mp4))
 
