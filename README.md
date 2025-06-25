@@ -178,37 +178,6 @@ await box.delete(meal.id);
 bool isFavorite = box.containsKey(meal.id);
 ```
 
-## 🧪 Testing
-
-### Test Structure
-
-```
-test/
-├── community_bloc/
-│   └── community_bloc_test.dart    # BLoC unit tests
-└── widget_test.dart                # Widget tests
-```
-
-### Running Tests
-
-```bash
-# Run all tests
-flutter test
-
-# Run with coverage
-flutter test --coverage
-
-# Run specific test file
-flutter test test/community_bloc/community_bloc_test.dart
-```
-
-### Test Features
-
-- ✅ Repository pattern testing
-- ✅ BLoC state testing
-- ✅ Error handling testing
-- ✅ Dependency injection testing
-
 ## 🎨 UI/UX Features
 
 ### Design System
@@ -284,7 +253,6 @@ flutter_gen:
 
 The app implements Repository pattern for better:
 
-- **Testability**: Easy mocking for unit tests
 - **Separation of Concerns**: Clear data layer abstraction
 - **Caching**: Future caching implementation ready
 - **Error Handling**: Centralized error management
